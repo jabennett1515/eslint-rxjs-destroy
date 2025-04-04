@@ -1,8 +1,8 @@
 ﻿# ESLint Plugin
 
-[![npm version](https://badge.fury.io/js/eslint-rxjs-destroy.svg)](https://badge.fury.io/js/eslint-rxjs-destroy)
+[![npm version](https://badge.fury.io/js/eslint-plugin-rxjs-destroy.svg)](https://badge.fury.io/js/eslint-plugin-rxjs-destroy)
 
-`eslint-rxjs-destroy` is an ESLint plugin designed to help developers ensure that RxJS subscriptions are properly destroyed, preventing memory leaks in Angular and other RxJS-based applications.
+`eslint-plugin-rxjs-destroy` is an ESLint plugin designed to help developers ensure that RxJS subscriptions are properly destroyed, preventing memory leaks in Angular and other RxJS-based applications.
 
 ## Features
 
@@ -15,7 +15,7 @@
 To install the plugin, run:
 
 ```bash
-npm install --save-dev eslint-rxjs-destroy
+npm install --save-dev eslint-plugin-rxjs-destroy
 ```
 
 ## Peer Dependencies
@@ -30,7 +30,7 @@ Supported ESLint versions: `^7.0.0 || ^8.0.0 || ^9.0.0`.
 
 ## Usage
 
-Add `eslint-rxjs-destroy` to your ESLint configuration file:
+Add `eslint-plugin-rxjs-destroy` to your ESLint configuration file:
 
 ### `.eslintrc.json`
 
